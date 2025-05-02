@@ -38,11 +38,11 @@ You may need to log in.
 
 - [Mockup](https://www.figma.com/proto/iNxlbwTLOjuXZIfmVmLjmf/P%C3%A1gina-EL-ESPECTADOR?node-id=1-7075&t=i2iDk84kHLAn7zfj-1)
 
-- [UML diagram](https://lucid.app/lucidchart/cc941619-0a65-44e5-ac46-55e62e0e57be/edit?viewport_loc=-1692%2C-468%2C2008%2C823%2C0_0&invitationId=inv_7a98d85b-1326-45de-8901-720decd1ae3b)
+- [UML diagram](https://lucid.app/lucidchart/b5c21a75-237b-49ee-b9a3-44912a94cb7e/edit?viewport_loc=-1322%2C-337%2C1226%2C600%2C0_0&invitationId=inv_8c881779-ebc8-45c8-8c8e-35963977164c)
   
-- [Sequence Diagrams 1-2](https://lucid.app/lucidchart/9d085e80-6966-48f6-87fa-c8d8c4ae3f6d/edit?viewport_loc=1305%2C-88%2C4901%2C2784%2C0_0&invitationId=inv_11545c7a-5fb1-4a62-989c-27c643c718f0)
+- [Sequence Diagrams 1-2](https://lucid.app/lucidchart/9d085e80-6966-48f6-87fa-c8d8c4ae3f6d/edit?viewport_loc=1309%2C675%2C1479%2C724%2C0_0&invitationId=inv_11545c7a-5fb1-4a62-989c-27c643c718f0)
 
-- [Sequence Diagrams 3-4](https://lucid.app/lucidchart/0f6ad412-4ed2-4cc6-93ae-11e8c72f1dc7/edit?viewport_loc=2255%2C706%2C2692%2C1313%2C0_0&invitationId=inv_5d5e9643-774d-4b25-b83e-6bf98a502c87)
+- [Sequence Diagrams 3-4](https://lucid.app/lucidchart/0f6ad412-4ed2-4cc6-93ae-11e8c72f1dc7/edit?viewport_loc=3169%2C663%2C1109%2C543%2C0_0&invitationId=inv_5d5e9643-774d-4b25-b83e-6bf98a502c87)
 
 ## Project Structure
 
