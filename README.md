@@ -54,5 +54,5 @@ Workshop-2/
 │   ├── InternationalNews.java # Derived class (inheritance)
 │   ├── Section.java           # Groups news (composition)
 │   └── InternationalNewsSection.java # Specialized section (polymorphism)
-├── Workshop-2.pdf             # Design documentation
+├── Workshop-2(2).pdf             # Design documentation
 └── README.md                  # Project overview
