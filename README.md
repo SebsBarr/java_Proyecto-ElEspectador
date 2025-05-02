@@ -49,9 +49,10 @@ You may need to log in.
 ```bash
 Workshop-2/
 ├── src/
-│   ├── Homepage.java
-│   ├── News.java
-│   ├── Section.java
-│   └── InternationalNews.java
-|── Workshop-2.pdf
-└── README.md
+│   ├── Homepage.java          # Manages featured news and sections (composition)
+│   ├── News.java              # Base class (encapsulation)
+│   ├── InternationalNews.java # Derived class (inheritance)
+│   ├── Section.java           # Groups news (composition)
+│   └── InternationalNewsSection.java # Specialized section (polymorphism)
+├── Workshop-2.pdf             # Design documentation
+└── README.md                  # Project overview
