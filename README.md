@@ -57,13 +57,14 @@ Built with **Java**, the system emphasizes **SOLID principles**, **modularity**,
 ## Project Structure  
 ```bash
 ├──src/
-|     ├──ui/                          # User interface Folder
-│         ├── App.java                 # Main UI
-│         └── Images/                  # Assets Folder (resoruces for UI)                       
-│     ├── News.java                # News (base class)
+|     ├──ui/                       # User interface Folder
+│         ├── App.java             # Main UI
+│         └── Images/              # Assets Folder (resoruces for UI)                       
+│     ├── Homepage.java            # Initial page 
+|     ├── News.java                # News (base class)
 │     ├── InternationalNews.java   # Specialized (derived)
 │     ├── NewsImage.java           # Img Assoc Whit a New
 │     ├── Section.java             # Abstract (group news)
 │     └── InternationalNewsSection # Filtered
-├── Workshop-3.pdf               # Documentation
+├── Workshop-3.pdf                 # Documentation
 └── README.md
