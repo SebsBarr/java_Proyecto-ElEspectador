@@ -1,9 +1,10 @@
-//* This is the Section class that separates the different news sections and creates lists with the latest news depending on the section */
+//* This is the Section abstract class that separates the different news sections and creates lists with the latest news depending on the section */
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Section {
+//implementing the open/closed principle by means of an abstract class.
+public abstract class Section { 
 
     //Attributes
     private String name;
@@ -18,26 +19,41 @@ public class Section {
     //Methods
 
     protected void addNews(News news){
-        this.newsList.add(news);
-
+        if (news != null){
+            this.newsList.add(news);
+        } 
     }
     protected void removeNews(News news){
         this.newsList.remove(news);
     }
-    private void displayLatestNews (){
+    
+        public void displayLatestNews (){
+    }
+    System.out.println ("--- Sección: " + this.name + " ---");
+    List<News> LatestNews = this.getLatestNews(9);
+    if (LatestNews.iempty){
+       System.out.println("There is no recent news in this section."); 
+    }
+    else {
+        for 
+    }
+    
+    //abstract methods 
+
+    public abstract List<News> getFeaturedNews (int limit){
+
+    }
+
+    public List<News> getLatestNews (int limit){
 
     }
 
     //Getters
 
-    public List<News> getLatestNews (int limit){
-
-
+    public String getName() {
+        return name;
     }
-    public List<News> getFeaturedNews (int limit){
-
-    }
-
+    
     //Setters
 
     public void setName( String name){

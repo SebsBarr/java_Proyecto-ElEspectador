@@ -8,16 +8,19 @@ public class NewsImage {
     private String caption;
     private int width;
     private int height;
+    private String newId;
 
     //Constructor
-    public NewsImage(String url, String imageDescription, String caption, int width, int height){
+    public NewsImage(String url, String imageDescription, String caption, int width, int height, String newId){
 
         this.url = url;
         this.imageDescription = imageDescription;
         this.caption = caption;
         this.width = width;
         this.height = height;
+        this.newId = newId; // <-- Addition, news image needs a news to exist but news does not need an image.
     }
+
     //Getters
 
     //Setters

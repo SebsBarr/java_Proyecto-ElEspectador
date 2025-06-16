@@ -13,7 +13,7 @@ public class News {
     private LocalDate date;
     private boolean isFeaturedNew;
     private String author;
-    private NewsImage image;
+    private NewsImage image; // <-- Addition
 
     //Constructor
     public News (String newId, String title, String content, String dateString, String author, boolean isFeaturedNew, NewsImage image){
@@ -25,6 +25,11 @@ public class News {
         this.author = author;
         this.isFeaturedNew = isFeaturedNew;
         this.image = image;
+
+        // if the image is empty, then the default image is set
+        if (image == null) {
+            this.image = setIdNoticiaAsociada(id);
+        }
 
     }
 
@@ -73,8 +78,13 @@ public class News {
         }
 
     }
+    
     public LocalDate getDate(LocalDate date){
         return date;
+    }
+
+    public String getTitle(String title){
+        return title;
     }
 
     //Setters
