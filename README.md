@@ -1,4 +1,4 @@
-# 📰 Workshop-3 — *El Espectador* News App  
+# Workshop-3 — *El Espectador* News App  
 
 ## 📚 Object-Oriented Programming — Semester 2025-I  
 **Universidad Distrital Francisco José de Caldas**  
@@ -12,7 +12,17 @@
 
 ---
 
-## 🎯 Project Overview  
+## Contents
+
+- [Workshop-3](#workshop-3)
+  - [Project Overview](#project-overview)
+  - [Key Features](#key-features)
+  - [OOP Implementation](#oop-implementation)
+  - [SOLID Compliance](#solid-compliance)
+  - [Project Structure](#project-structure)
+
+---
+## Project Overview  
 This project is a functional replica of the digital news platform *El Espectador*, designed to showcase modern OOP principles. It enables users to:  
 - Browse **featured**, **latest**, and **international** news  
 - Navigate categorized sections with intuitive filtering  
@@ -22,7 +32,7 @@ Built with **Java**, the system emphasizes **SOLID principles**, **modularity**,
 
 ---
 
-## 🌟 Key Features  
+## Key Features  
 ### Core Functionalities  
 ✅ **Homepage**: Displays main news and highlights  
 ✅ **Latest News**: Shows the 9 most recent articles (sorted by date)  
@@ -44,7 +54,7 @@ Built with **Java**, the system emphasizes **SOLID principles**, **modularity**,
 
 ---
 
-## 📂 Project Structure  
+## Project Structure  
 ```bash
 src/
 ├── ui/                          # User interface Folder
