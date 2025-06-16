@@ -1,57 +1,61 @@
-# 📰 Workshop-2 — *El Espectador* News App
+# 📰 Workshop-3 — *El Espectador* News App  
 
-## 📚 Object-Oriented Programming — Semester 2025-I
+## 📚 Object-Oriented Programming — Semester 2025-I  
 **Universidad Distrital Francisco José de Caldas**  
 **Professor**: Eng. Carlos Andrés Sierra, M.Sc.  
 
-## 👥 Authors
-- Angie Nathaly Cisneros Guerrero — 20242020084
-- Luis Sebastián Correa Barreto — 20242020085
+---
 
-## 🎯 Project Description
-This project replicates the basic functionality of the **El Espectador** news website, offering users the ability to easily browse, search, and view categorized news articles.
+## 👥 Authors  
+- **Angie Nathaly Cisneros Guerrero** — 20242020084  
+- **Luis Sebastián Correa Barreto** — 20242020085  
 
-The main objective is to apply core Object-Oriented Programming (OOP) principles such as **encapsulation**, **inheritance**, and **polymorphism** to build a scalable and maintainable transactional application.
+---
 
-## ⏩ Table Of Contents
+## 🎯 Project Overview  
+This project is a functional replica of the digital news platform *El Espectador*, designed to showcase modern OOP principles. It enables users to:  
+- Browse **featured**, **latest**, and **international** news  
+- Navigate categorized sections with intuitive filtering  
+- Access full articles with summaries and visual content  
 
-- [Updated Conceptual Design](#updated-conceptual-design)
-- [Technical Design](#technical-design)
-- [Initial Implementation](#initial-implementation)
-- [Links (For mockup and detailed view of diagrams)](#links-for-mockup-and-detailed-view-of-diagrams)
-- [Project Structure](#project-structure)
-## Updated Conceptual Design
-- Functional and Non-Functional Requirements
-- Complete User Stories (with Acceptance Criteria)
-- CRC Cards for all main classes
+Built with **Java**, the system emphasizes **SOLID principles**, **modularity**, and **scalability** for future extensions.  
 
-## Technical Design
-- UML Class Diagram
-- Sequence Diagram for key interactions
+---
 
-## Initial Implementation
-- Java class skeletons with attributes and basic methods
-- Application of encapsulation with getters and setters
+## 🌟 Key Features  
+### Core Functionalities  
+✅ **Homepage**: Displays main news and highlights  
+✅ **Latest News**: Shows the 9 most recent articles (sorted by date)  
+✅ **International News**: Filters non-Colombian content  
+✅ **News Management**: CRUD operations for articles with validation  
 
-## Links (For mockup and detailed view of diagrams):
-You may need to log in.
+### OOP Implementation  
+| Principle          | Example                                  |  
+|--------------------|------------------------------------------|  
+| **Encapsulation**  | Private attributes with validated setters |  
+| **Inheritance**    | `InternationalNews` extends `News`       |  
+| **Polymorphism**   | Custom `getLatestNews()` implementations |  
+| **Composition**    | `Homepage` aggregates `Section` objects  |  
 
-- [Mockup](https://www.figma.com/proto/iNxlbwTLOjuXZIfmVmLjmf/P%C3%A1gina-EL-ESPECTADOR?node-id=1-7075&t=i2iDk84kHLAn7zfj-1)
+### SOLID Compliance  
+- ✔️ **Single Responsibility**: Clean class separation  
+- ✔️ **Open/Closed**: Extensible via abstract `Section` class  
+- ✔️ **Liskov Substitution**: Seamless parent-child substitution  
 
-- [UML diagram](https://lucid.app/lucidchart/cc941619-0a65-44e5-ac46-55e62e0e57be/edit?viewport_loc=-1692%2C-468%2C2008%2C823%2C0_0&invitationId=inv_7a98d85b-1326-45de-8901-720decd1ae3b)
-  
-- [Sequence Diagrams 1-2](https://lucid.app/lucidchart/9d085e80-6966-48f6-87fa-c8d8c4ae3f6d/edit?viewport_loc=1305%2C-88%2C4901%2C2784%2C0_0&invitationId=inv_11545c7a-5fb1-4a62-989c-27c643c718f0)
+---
 
-- [Sequence Diagrams 3-4](https://lucid.app/lucidchart/0f6ad412-4ed2-4cc6-93ae-11e8c72f1dc7/edit?viewport_loc=2255%2C706%2C2692%2C1313%2C0_0&invitationId=inv_5d5e9643-774d-4b25-b83e-6bf98a502c87)
-
-## Project Structure
-
+## 📂 Project Structure  
 ```bash
-Workshop-2/
-├── src/
-│   ├── Homepage.java
-│   ├── News.java
-│   ├── Section.java
-│   └── InternationalNews.java
-|── Workshop-2.pdf
+src/
+├── ui/                          # User interface
+│   ├── App.java                 # Main UI
+│   └── Images/                  # Assets
+├── model/                       # Data classes
+│   ├── News.java                # Base news
+│   ├── InternationalNews.java   # Specialized
+│   └── NewsImage.java           # Images
+├── manager/                     # Logic
+│   ├── Section.java             # Abstract
+│   └── InternationalNewsSection # Filtered
+├── Workshop-3.pdf               # Documentation
 └── README.md
