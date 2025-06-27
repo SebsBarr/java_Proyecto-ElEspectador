@@ -16,9 +16,7 @@
 
 - [Workshop-3](#workshop-3)
   - [Project Overview](#project-overview)
-  - [Key Features](#key-features)
-  - [OOP Implementation](#oop-implementation)
-  - [SOLID Compliance](#solid-compliance)
+  - [Run Steps](#run-steps).
   - [Project Structure](#project-structure)
 
 ---
