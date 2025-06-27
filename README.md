@@ -1,4 +1,4 @@
-# Workshop-3 — *El Espectador* News App  
+# Workshop-4 — *El Espectador* News App  
 
 ## 📚 Object-Oriented Programming — Semester 2025-I  
 **Universidad Distrital Francisco José de Caldas**  
@@ -32,39 +32,58 @@ Built with **Java**, the system emphasizes **SOLID principles**, **modularity**,
 
 ---
 
-## Key Features  
-### Core Functionalities  
-✅ **Homepage**: Displays main news and highlights  
-✅ **Latest News**: Shows the 9 most recent articles (sorted by date)  
-✅ **International News**: Filters non-Colombian content  
-✅ **News Management**: CRUD operations for articles with validation  
-
-### OOP Implementation  
-| Principle          | Example                                  |  
-|--------------------|------------------------------------------|  
-| **Encapsulation**  | Private attributes with validated setters |  
-| **Inheritance**    | `InternationalNews` extends `News`       |  
-| **Polymorphism**   | Custom `getLatestNews()` implementations |  
-| **Composition**    | `Homepage` aggregates `Section` objects  |  
-
-### SOLID Compliance  
-- ✔️ **Single Responsibility**: Clean class separation  
-- ✔️ **Open/Closed**: Extensible via abstract `Section` class  
-- ✔️ **Liskov Substitution**: Seamless parent-child substitution  
+## Run Steps
+Our app doesn't manages any kind of input from user, it objecitve is to keep the user informated using a intuitive user interface
+feel free to execute the App.java file on the /presenter/App.java and navigate your own! thank you.
 
 ---
 
 ## Project Structure  
 ```bash
-├──src/
-│     ├──ui/                       # User interface Folder
-│         ├── App.java             # Main UI
-│         └── Images/              # Assets Folder (resoruces for UI)                       
-│     ├── Homepage.java            # Initial page 
-│     ├── News.java                # News (base class)
-│     ├── InternationalNews.java   # Specialized (derived)
-│     ├── NewsImage.java           # Img Assoc Whit a New
-│     ├── Section.java             # Abstract (group news)
-│     └── InternationalNewsSection # Filtered
-├── Workshop-3.pdf                 # Documentation
-└── README.md
+├── Workshop-4/
+│ ├── bin/
+│ │ ├── gui/
+│ │ │├── CenterPanel.class
+│ │ │├── Constants.class
+│ │ │├── HeaderContainer.class
+│ │ │├── MainFrame.class
+│ │ │├── NewsView.class│ │ │├── OptionContainer.class
+│ │ │└── StartPanel.class
+│ │ ├── Images/
+│ │ │├── test.jpeg
+│ │ │├── testTwo.jpeg
+│ │ │├── testThree.jpeg
+│ │ │└── ... (other image files)
+│ │ ├── model/
+│ │ │├── Homepage.class
+│ │ │├── InternationalNews.class
+│ │ │├── InternationalNewsSection.class
+│ │ │├── News.class
+│ │ │├── NewsImage.class
+│ │ │└── Section.class
+│ │ └── presenter/
+│ │     └── App.class
+│ ├── lib/ ...
+│ ├── src/
+│ │ ├── gui/
+│ │ │├── CenterPanel.java
+│ │ │├── Constants.java
+│ │ │├── HeaderContainer.java
+│ │ │├── MainFrame.java
+│ │ │├── NewsView.java
+│ │ │├── OptionContainer.java
+│ │ │└── StartPanel.java
+│ │ ├── Images/
+│ │ │   (same image files as in bin/Images/)
+│ │ ├── model/
+│ │ │├── Homepage.java│ │ │├── InternationalNews.java
+│ │ │├── InternationalNewsSection.java
+│ │ │├── News.java
+│ │ │├── NewsImage.java
+│ │ │└── Section.java
+│ │ └── presenter/
+│ │ └── App.java
+│ └── README.md
+└── Workshop-4.pdf
+└── DiagramsIns.pdf
+
